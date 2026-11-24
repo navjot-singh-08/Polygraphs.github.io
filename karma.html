@@ -1,125 +1,228 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Karma and panch tatvas | Polygraphs</title>
-
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galactic Research Journal</title>
 
 <style>
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-}
+    body {
+        margin: 0;
+        font-family: Georgia, serif;
+        background-color: #f5f5f5;
+        color: #222;
+        line-height: 1.6;
+    }
 
-body{
-    background:#0d1117;
-    color:#e6edf3;
-    font-family:'Inter',sans-serif;
-    line-height:1.8;
-}
+    header {
+        background: #0d1b2a;
+        color: white;
+        padding: 40px 20px;
+        text-align: center;
+    }
 
-.container{
-    max-width:900px;
-    margin:auto;
-    padding:60px 25px;
-}
+    header h1 {
+        margin: 0;
+        font-size: 2.8rem;
+    }
 
-.back-link{
-    color:#facc15;
-    text-decoration:none;
-    font-weight:600;
-}
+    header p {
+        margin-top: 10px;
+        font-size: 1.1rem;
+    }
 
-.back-link:hover{
-    text-decoration:underline;
-}
+    nav {
+        background: #1b263b;
+        padding: 12px;
+        text-align: center;
+    }
 
-.tag{
-    display:inline-block;
-    margin-top:40px;
-    padding:6px 14px;
-    border-radius:20px;
-    background:#1f6feb;
-    font-size:0.85rem;
-    font-weight:600;
-}
+    nav a {
+        color: white;
+        text-decoration: none;
+        margin: 0 15px;
+        font-weight: bold;
+    }
 
-h1{
-    font-family:'Cormorant Garamond',serif;
-    font-size:3.5rem;
-    margin-top:20px;
-    margin-bottom:10px;
-}
+    .container {
+        max-width: 1100px;
+        margin: auto;
+        padding: 30px;
+    }
 
-.meta{
-    color:#9da7b3;
-    margin-bottom:40px;
-}
+    .about {
+        background: white;
+        padding: 25px;
+        border-radius: 8px;
+        margin-bottom: 30px;
+    }
 
-article{
-    font-size:1.08rem;
-}
+    .article {
+        padding: 25px;
+        border-radius: 8px;
+        margin-bottom: 20px;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        border-left: 7px solid;
+    }
 
-article p{
-    margin-bottom:24px;
-}
+    .article h2 {
+        margin-top: 0;
+    }
 
-blockquote{
-    border-left:4px solid #facc15;
-    padding-left:20px;
-    margin:25px 0;
-    color:#d1d5db;
-    font-style:italic;
-}
+    /* Article 1 - Light Blue */
+    .article:nth-child(1) {
+        background-color: #dbeafe;
+        border-color: #2563eb;
+    }
 
-footer{
-    margin-top:80px;
-    padding-top:30px;
-    border-top:1px solid #30363d;
-    color:#8b949e;
-    text-align:center;
-}
+    .article:nth-child(1) h2 {
+        color: #1e40af;
+    }
+
+    .article:nth-child(1) .btn {
+        background: #2563eb;
+    }
+
+    /* Article 2 - Light Green */
+    .article:nth-child(2) {
+        background-color: #dcfce7;
+        border-color: #16a34a;
+    }
+
+    .article:nth-child(2) h2 {
+        color: #166534;
+    }
+
+    .article:nth-child(2) .btn {
+        background: #16a34a;
+    }
+
+    /* Article 3 - Light Purple */
+    .article:nth-child(3) {
+        background-color: #f3e8ff;
+        border-color: #9333ea;
+    }
+
+    .article:nth-child(3) h2 {
+        color: #6b21a8;
+    }
+
+    .article:nth-child(3) .btn {
+        background: #9333ea;
+    }
+
+    .article-meta {
+        color: #555;
+        font-size: 0.9rem;
+        margin-bottom: 10px;
+    }
+
+    .btn {
+        display: inline-block;
+        color: white;
+        text-decoration: none;
+        padding: 10px 18px;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+
+    footer {
+        background: #0d1b2a;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        margin-top: 40px;
+    }
+
 </style>
 </head>
 
 <body>
 
+<header>
+    <h1>Galactic Research Journal</h1>
+    <p>Independent Research Articles and Publications</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Articles</a>
+    <a href="#">Archive</a>
+    <a href="#">About</a>
+</nav>
+
 <div class="container">
 
-<a href="index.html" class="back-link">← Back to Journal</a>
-
-<div class="tag">PHYSICS</div>
-
-<h1>Karma and panch tatvas</h1>
-
-<div class="meta">
-Published June 2026 • Polygraphs
-</div>
-
-<article>
-
-<p>
-
-Karma is performed via panch tatvas. You have your karmic space- if you go to office and do work your space is home to office. If you watch tv all the time, your space is your sofa. Light. This is direction you give to your karma. It follows light. Solidity is any substance added to karma. For example- if you do a job, your substance is your job. Air - this is the substance you consume. In order to thrive and survive, you depend on air. It symbolizes dependency.
+<section class="about">
+    <h2>karma and panch tatvas</h2>
+    <p>
+        Karma is performed via panch tatvas. You have your karmic space- if you go to office and do work your space is home to office. If you watch tv all the time, your space is your sofa. Light. This is direction you give to your karma. It follows light. Solidity is any substance added to karma. For example- if you do a job, your substance is your job. Air - this is the substance you consume. In order to thrive and survive, you depend on air. It symbolizes dependency.
 Liquidity symbolises flow. Autopilot mode of action is a component of liquidity.
 
+    </p>
+</section>
 
+<section>
+    <h2>Published Articles</h2>
 
-</p>
+    <div class="article">
+        <h2>Astrophysical Implications of Dark Matter</h2>
 
+        <div class="article-meta">
+            Volume 1 · Issue 1 · 2026
+        </div>
 
+        <p>
+            An investigation into the role of dark matter in galactic
+            formation, gravitational lensing, and large-scale structure.
+        </p>
 
-</article>
+        <a href="papers/dark-matter.pdf" class="btn">
+            Read Article
+        </a>
+    </div>
+
+    <div class="article">
+        <h2>Psychological and Symbolic Influence of Kalipurush</h2>
+
+        <div class="article-meta">
+            Volume 1 · Issue 2 · 2026
+        </div>
+
+        <p>
+            A symbolic and psychological examination of Kalipurush in
+            Hindu mythology and philosophical traditions.
+        </p>
+
+        <a href="papers/kalipurush.pdf" class="btn">
+            Read Article
+        </a>
+    </div>
+
+    <div class="article">
+        <h2>Your Future Publication</h2>
+
+        <div class="article-meta">
+            Volume 1 · Issue 3 · 2026
+        </div>
+
+        <p>
+            Add a short abstract here.
+        </p>
+
+        <a href="#" class="btn">
+            Read Article
+        </a>
+    </div>
+
+</section>
+</div>
 
 <footer>
-© 2026 Polygraphs
+    <p>
+        © 2026 Galactic Research Journal. All Rights Reserved.
+    </p>
 </footer>
-
-</div>
 
 </body>
 </html>
